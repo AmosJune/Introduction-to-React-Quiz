@@ -20,6 +20,8 @@ h3 {
 button {
   margin: 10px 0;
   padding: 5px 10px;
+  background-color: beige;
+  color: black;
 }
 
 .wrapper {
@@ -47,11 +49,24 @@ ul {
 }
 
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+.value{
+  background-color: beige;
+}
+
+.names{
+  background-color: peachpuff;
+}
+
+img{
+  transform: scaleX(-1);
+  margin: 25px;
 }
